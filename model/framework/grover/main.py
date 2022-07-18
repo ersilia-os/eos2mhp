@@ -35,7 +35,33 @@ def smiles_to_dataframe(txt_file_path):
     
     dummy_labels = pd.Series(np.zeros(df.shape[0]))
 
-    names =    ['Class-Probability']
+    names =    [    'Hepatobiliary disorders',
+                	'Metabolism and nutrition disorders',
+                	'Product issues',
+                	'Eye disorders',
+                  	'Investigations',
+                    'Musculoskeletal and connective tissue disorders',
+                    'Gastrointestinal disorders',
+                    'Social circumstances',
+                    'Immune system disorders',
+                    'Reproductive system and breast disorders',
+                    'Neoplasms benign, malignant and unspecified (incl cysts and polyps)',
+                    'General disorders and administration site conditions',
+                    'Endocrine disorders',
+                    'Surgical and medical procedures',
+                    'Vascular disorders',
+                    'Blood and lymphatic system disorders',
+                    'Skin and subcutaneous tissue disorders',
+                    'Congenital, familial and genetic disorders',
+                    'Infections and infestations',
+                    'Respiratory, thoracic and mediastinal disorders',
+                    'Psychiatric disorders',
+                    'Renal and urinary disorders',
+                    'Pregnancy, puerperium and perinatal conditions',
+                    'Ear and labyrinth disorders',
+                    'Cardiac disorders',
+                    'Nervous system disorders',
+                    'Injury, poisoning and procedural complications'     ]
     
     for n in names:
         df[n] = dummy_labels.values
@@ -67,7 +93,7 @@ if __name__ == '__main__':
     p = Path(s)
     model_path = str(p.parent.parent.absolute())
 
-    args = Namespace(batch_size=32, checkpoint_dir=model_path+'/framework/finetune/bace', checkpoint_path=None, checkpoint_paths=[model_path+'/framework/finetune/bace/fold_0/model_0/model.pt', model_path+'/framework/finetune/bace/fold_2/model_0/model.pt', model_path+'/framework/finetune/bace/fold_1/model_0/model.pt'], cuda=False, data_path=csv_path, ensemble_size=3, features_generator=None, features_path=['features.npz'], fingerprint=False, gpu=0, no_cache=True, no_features_scaling=True, output_path=output_path, parser_name='predict')
+    args = Namespace(batch_size=32, checkpoint_dir=model_path+'/framework/finetune/sider', checkpoint_path=None, checkpoint_paths=[model_path+'/framework/finetune/sider/fold_0/model_0/model.pt', model_path+'/framework/finetune/sider/fold_2/model_0/model.pt', model_path+'/framework/finetune/sider/fold_1/model_0/model.pt'], cuda=False, data_path=csv_path, ensemble_size=3, features_generator=None, features_path=['features.npz'], fingerprint=False, gpu=0, no_cache=True, no_features_scaling=True, output_path=output_path, parser_name='predict')
 
 
     sf.save_features_main(csv_path)
