@@ -23,6 +23,11 @@ Prediction of Beta-secretase 1 (BACE-1) inhibition. BACE-1 is expressed mainly i
 * [Source Code](https://github.com/tencent-ailab/grover)
 * Ersilia contributor: [Amna-28](https://github.com/Amna-28)
 
+## Ersilia model URLs
+* [GitHub](https://github.com/ersilia-os/eos2mhp)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2mhp.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos2mhp) (AMD64, ARM64)
+
 ## Citation
 
 If you use this model, please cite the [original authors](https://arxiv.org/abs/2007.02835) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).

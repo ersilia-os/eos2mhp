@@ -29,5 +29,11 @@
     "Publication": "https://arxiv.org/abs/2007.02835",
     "Source Code": "https://github.com/tencent-ailab/grover",
     "License": "MIT",
-    "Contributor": "Amna-28"
+    "Contributor": "Amna-28",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2mhp.zip",
+    "DockerHub": "https://hub.docker.com/r/ersiliaos/eos2mhp",
+    "Docker Architecture": [
+        "AMD64",
+        "ARM64"
+    ]
 }
