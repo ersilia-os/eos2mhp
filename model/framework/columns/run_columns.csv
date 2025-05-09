@@ -1,0 +1,2 @@
+name,type,direction,description
+bace_inhibition,float,high,Probability of inhibiting the BACE1 protein
