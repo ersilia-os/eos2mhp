@@ -3,21 +3,18 @@
     "Slug": "grover-bace",
     "Status": "Ready",
     "Title": "BACE-1 inhibition",
-    "Description": "Prediction of Beta-secretase 1 (BACE-1) inhibition. BACE-1 is expressed mainly in neurons and has been involved in the development of Alzheimer's disease. This model has been trained on the BACE dataset from MoleculeNet using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER). \n",
+    "Description": "Prediction of Beta-secretase 1 (BACE-1) inhibition. BACE-1 is expressed mainly in neurons and has been involved in the development of Alzheimers disease. This model has been trained on the BACE dataset from MoleculeNet using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER). ",
+    "Deployment": [
+        "Local"
+    ],
     "Source": "Local",
     "Source Type": "External",
+    "Task": "Annotation",
+    "Subtask": "Activity prediction",
     "Input": [
         "Compound"
     ],
     "Input Dimension": 1,
-    "Task": "Annotation",
-    "Subtask": "Activity prediction",
-    "Biomedical Area": [
-        "Alzheimer"
-    ],
-    "Target Organism": [
-        "Homo sapiens"
-    ],
     "Output": [
         "Probability"
     ],
@@ -30,20 +27,25 @@
         "MoleculeNet",
         "Chemical graph model"
     ],
-    "Publication": "https://arxiv.org/abs/2007.02835",
+    "Biomedical Area": [
+        "Alzheimer"
+    ],
+    "Target Organism": [
+        "Homo sapiens"
+    ],
     "Publication Type": "Preprint",
     "Publication Year": 2020,
+    "Publication": "https://arxiv.org/abs/2007.02835",
     "Source Code": "https://github.com/tencent-ailab/grover",
     "License": "MIT",
     "Contributor": "Amna-28",
     "Incorporation Date": "2022-07-13",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2mhp.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos2mhp",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
     ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2mhp.zip",
-    "Deployment": [
-        "Local"
-    ]
+    "Model Size": 1378.0,
+    "Environment Size": 2409.0
 }
