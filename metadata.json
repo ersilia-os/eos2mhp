@@ -40,6 +40,8 @@
     "License": "MIT",
     "Contributor": "Amna-28",
     "Incorporation Date": "2022-07-13",
+    "Last Packaging Date": "2025-09-04",
+    "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2mhp.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos2mhp",
     "Docker Architecture": [
@@ -48,10 +50,10 @@
     ],
     "Model Size": 1378.0,
     "Environment Size": 2422.0,
-    "Image Size": 6480.94,
-    "Computational Performance 1": 49.76,
-    "Computational Performance 2": 85.03,
-    "Computational Performance 3": 446.15,
-    "Computational Performance 4": -1.0,
+    "Image Size": 6563.2,
+    "Computational Performance 1": 33.76,
+    "Computational Performance 2": 39.74,
+    "Computational Performance 3": 158.16,
+    "Computational Performance 4": 1443.29,
     "Computational Performance 5": -1.0
 }
