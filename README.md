@@ -2,7 +2,7 @@
 
 Prediction of Beta-secretase 1 (BACE-1) inhibition. BACE-1 is expressed mainly in neurons and has been involved in the development of Alzheimers disease. This model has been trained on the BACE dataset from MoleculeNet using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER). 
 
-This model was incorporated on 2022-07-13.Last packaged on 2025-09-04.
+This model was incorporated on 2022-07-13.Last packaged on 2026-03-10.
 
 ## Information
 ### Identifiers
@@ -35,17 +35,17 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos2mhp](https://hub.docker.com/r/ersiliaos/eos2mhp)
-- **Docker Architecture:** `AMD64`, `ARM64`
+- **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2mhp.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2mhp.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1378`
 - **Environment Size (Mb):** `2406`
-- **Image Size (Mb):** `6563.2`
+- **Image Size (Mb):** `6565.8`
 
 **Computational Performance (seconds):**
-- 10 inputs: `33.76`
-- 100 inputs: `158.16`
+- 10 inputs: `34.99`
+- 100 inputs: `159.34`
 - 10000 inputs: `-1`
 
 ### References
