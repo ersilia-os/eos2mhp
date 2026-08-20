@@ -1,6 +1,6 @@
 # BACE-1 inhibition
 
-Predicts inhibition of beta-secretase 1, the neuronal protease that cleaves amyloid precursor protein and has been pursued extensively as an Alzheimer's disease target. The MoleculeNet BACE set, which couples quantitative binding results with binary labels for a single well-studied target, provided the training data. A self-supervised graph transformer pretrained on 10 million ChEMBL and ZINC15 molecules was fine-tuned to the task. Because the data centre on one congeneric series, generalisation to unrelated scaffolds is uncertain.
+Prediction of Beta-secretase 1 (BACE-1) inhibition. BACE-1 is expressed mainly in neurons and has been involved in the development of Alzheimers disease. This model has been trained on the BACE dataset from MoleculeNet using the GROVER transformer (see eos7w6n or grover-embedding for a detail of the molecular featurization step with GROVER). 
 
 This model was incorporated on 2022-07-13.Last packaged on 2026-03-10.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2022-07-13.Last packaged on 2026-03-10.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of BACE-1 inhibition, with actives defined at a 0.1 uM cut-off.
+- **Interpretation:** Probability that the molecule is a BACE-1 inhibitor (using a 0.1 uM cut-off)
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
