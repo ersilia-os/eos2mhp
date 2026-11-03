@@ -3,7 +3,7 @@
 Predicts inhibition of beta-secretase 1, the neuronal protease that cleaves amyloid precursor protein and has been pursued for years as an Alzheimers disease target. Fine-tuning used the MoleculeNet BACE set, 1,513 compounds reported as human BACE-1 inhibitors with binary activity labels, on top of a self-supervised graph transformer pretrained on 10 million ChEMBL and ZINC15 molecules; three fine-tuned folds are averaged at inference. Because the data centre on a few congeneric series, generalisation to unrelated scaffolds is uncertain.
 
 This model was incorporated on 2022-07-13.
-Last packaged on 2026-03-10.
+Last packaged on 2026-11-03.
 
 ## Information
 ### Identifiers
@@ -36,17 +36,17 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos2mhp](https://hub.docker.com/r/ersiliaos/eos2mhp)
-- **Docker Architecture:** `AMD64`
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2mhp.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2mhp.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1378`
 - **Environment Size (Mb):** `2406`
-- **Image Size (Mb):** `6565.8`
+- **Image Size (Mb):** `3756.1`
 
 **Computational Performance (seconds):**
-- 10 inputs: `34.99`
-- 100 inputs: `159.34`
+- 10 inputs: `30.3`
+- 100 inputs: `56.28`
 - 10000 inputs: `-1`
 
 ### References
