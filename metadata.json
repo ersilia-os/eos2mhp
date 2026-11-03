@@ -3,7 +3,7 @@
     "Slug": "grover-bace",
     "Status": "Ready",
     "Title": "BACE-1 inhibition",
-    "Description": "Predicts inhibition of beta-secretase 1, the neuronal protease that cleaves amyloid precursor protein and has been pursued for years as an Alzheimer's disease target. Fine-tuning used the MoleculeNet BACE set, 1,513 compounds reported as human BACE-1 inhibitors with binary activity labels, on top of a self-supervised graph transformer pretrained on 10 million ChEMBL and ZINC15 molecules; three fine-tuned folds are averaged at inference. Because the data centre on a few congeneric series, generalisation to unrelated scaffolds is uncertain.",
+    "Description": "Predicts inhibition of beta-secretase 1, the neuronal protease that cleaves amyloid precursor protein and has been pursued for years as an Alzheimers disease target. Fine-tuning used the MoleculeNet BACE set, 1,513 compounds reported as human BACE-1 inhibitors with binary activity labels, on top of a self-supervised graph transformer pretrained on 10 million ChEMBL and ZINC15 molecules; three fine-tuned folds are averaged at inference. Because the data centre on a few congeneric series, generalisation to unrelated scaffolds is uncertain.",
     "Deployment": [
         "Local"
     ],
